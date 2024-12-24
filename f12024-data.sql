@@ -89,4 +89,5 @@ INSERT INTO grand_prix (name, circuit, laps) VALUES
 ("Gra premio México", 20, 71),
 ("Gran Premio de São Paulo", 21, 71),
 ("Gran Premio de Las Vegas", 22, 50),
-("Gran Premio de Catar", 23, 57);
+("Gran Premio de Catar", 23, 57),
+("Gran Premio de Abu Dabi", 24, 58);

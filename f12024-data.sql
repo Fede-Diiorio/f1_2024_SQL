@@ -91,3 +91,11 @@ INSERT INTO grand_prix (name, circuit, laps) VALUES
 ('Gran Premio de Las Vegas', 22, 50),
 ('Gran Premio de Catar', 23, 57),
 ('Gran Premio de Abu Dabi', 24, 58);
+
+INSERT INTO tyres (name, tyre_code, grip, durability) VALUES
+('Duro', 'H','Baja', 'Alta'),
+('Medio', 'M', 'Media', 'Media'),
+('Blando', 'S', 'Alta', 'Baja'),
+('Intermedio', 'I', 'Lluvia', 'Lluvia'),
+('De lluvia', 'W', 'Lluvia', 'Lluvia'),
+('Test', 'T', 'Test', 'Test');

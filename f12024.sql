@@ -44,6 +44,14 @@ CREATE TABLE grand_prix (
     FOREIGN KEY (circuit) REFERENCES circuits (id) ON DELETE CASCADE
 );
 
+CREATE TABLE tyres (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR (15) NOT NULL,
+    tyre_code VARCHAR (1) NOT NULL,
+    grip VARCHAR (10),
+    durability VARCHAR (10)
+);
+
 CREATE TABLE free_practices (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     grand_prix_id INT NOT NULL,
@@ -52,12 +60,13 @@ CREATE TABLE free_practices (
     team INT NOT NULL,
     record VARCHAR(12) NOT NULL,
     gap VARCHAR(12) NOT NULL,
-    tire VARCHAR(1) NOT NULL,
+    tyre INT NOT NULL,
     laps INT NOT NULL,
     practice_number INT NOT NULL,
     FOREIGN KEY (pilot) REFERENCES pilots (number) ON DELETE CASCADE,
     FOREIGN KEY (team) REFERENCES teams (id) ON DELETE CASCADE,
-    FOREIGN KEY (grand_prix_id) REFERENCES grand_prix (id) ON DELETE CASCADE
+    FOREIGN KEY (grand_prix_id) REFERENCES grand_prix (id) ON DELETE CASCADE,
+    FOREIGN KEY (tyre) REFERENCES tyres (id) ON DELETE CASCADE
 );
 
 CREATE TABLE qualys (

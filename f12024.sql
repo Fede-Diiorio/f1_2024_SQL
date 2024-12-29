@@ -48,6 +48,8 @@ CREATE TABLE tyres (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     name VARCHAR (15) NOT NULL,
     tyre_code VARCHAR (1) NOT NULL,
+    slick BOOLEAN NOT NULL,
+    to_rain BOOLEAN NOT NULL,
     grip VARCHAR (10),
     durability VARCHAR (10)
 );

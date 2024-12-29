@@ -92,10 +92,10 @@ INSERT INTO grand_prix (name, circuit, laps) VALUES
 ('Gran Premio de Catar', 23, 57),
 ('Gran Premio de Abu Dabi', 24, 58);
 
-INSERT INTO tyres (name, tyre_code, grip, durability) VALUES
-('Duro', 'H','Baja', 'Alta'),
-('Medio', 'M', 'Media', 'Media'),
-('Blando', 'S', 'Alta', 'Baja'),
-('Intermedio', 'I', 'Lluvia', 'Lluvia'),
-('De lluvia', 'W', 'Lluvia', 'Lluvia'),
-('Test', 'T', 'Test', 'Test');
+INSERT INTO tyres (name, tyre_code, slick, to_rain, grip, durability) VALUES
+('Duro', 'H', TRUE, FALSE, 'Baja', 'Alta'),
+('Medio', 'M', TRUE, FALSE, 'Media', 'Media'),
+('Blando', 'S', TRUE, FALSE, 'Alta', 'Baja'),
+('Intermedio', 'I', FALSE, TRUE, 'Lluvia', 'Lluvia'),
+('De lluvia', 'W', FALSE, TRUE, 'Lluvia', 'Lluvia'),
+('Test', 'T', TRUE, FALSE, 'Test', 'Test');

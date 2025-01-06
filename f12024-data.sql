@@ -6,14 +6,14 @@ INSERT INTO engines (name) VALUES
 ('Ferrari 066/12'), 
 ('Renault E-Tech RE24');
 
-INSERT INTO teams (name, chassis, engine) VALUES 
+INSERT INTO teams (name, chassis, id_engine) VALUES 
 ('Oracle Red Bull Racing', 'RB20', 1), ('Mercedes-AMG PETRONAS Formula One Team', 'W15', 2),
 ('Scuderia Ferrari', 'SF-24', 3), ('McLaren Formula 1 Team', 'MCL38', 2), 
 ('Aston Martin Aramco Formula One Team', 'AMR24', 2),('BWT Alpine F1 Team', 'A524', 4), 
 ('Williams Racing', 'FW46', 2), ('Visa Cash App RB Formula One Team', 'VCARB01', 1),
 ('Kick Sauber F1 Team' ,'C44', 3), ('MoneyGram Haas F1 Team', 'VF-24', 3);
 
-INSERT INTO pilots (number, name, lastname, driver_code, team, date_of_birth, nacionality) VALUES
+INSERT INTO pilots (id_pilot, name, lastname, driver_code, id_team, date_of_birth, nacionality) VALUES
 (1, 'Max', 'Verstappen', 'VER', 1, '1997-09-30', 'Países Bajos'),
 (2, 'Logan', 'Sargeant', 'SAR', 7, '2000-12-31', 'Estados Unidos'),
 (3, 'Daniel', 'Ricciardo', 'RIC', 8, '1989-07-01', 'Australia'),
@@ -65,7 +65,7 @@ INSERT INTO circuits (name, ubication, length, curves, record, opening, circuit_
 ('Circuito Internacional de Losail', 'Lusail, Catar', 5380, 16, '1:22:384', '2004-11-02', 'QAT'),
 ('Circuito Yas Marina', 'Isla de Yas, Abu Dabi, Emiratos Árabes Unidos', 5281, 16, '1:26:103', '2009-11-01', 'ABU');
 
-INSERT INTO grand_prix (name, circuit, laps) VALUES
+INSERT INTO grand_prix (name, id_circuit, laps) VALUES
 ('Gran Premio de Baréin', 1, 57),
 ('Gran Premio de Arabia Saudita', 2, 50),
 ('Gran Premio de Australia', 3, 58),
@@ -91,7 +91,7 @@ INSERT INTO grand_prix (name, circuit, laps) VALUES
 ('Gran Premio de Catar', 23, 57),
 ('Gran Premio de Abu Dabi', 24, 58);
 
-INSERT INTO tyres (name, tyre_code, slick, to_rain, grip, durability) VALUES
+INSERT INTO tyres (name, tyre_code, is_slick, is_for_rain, grip, durability) VALUES
 ('Duro', 'H', TRUE, FALSE, 'Baja', 'Alta'),
 ('Medio', 'M', TRUE, FALSE, 'Media', 'Media'),
 ('Blando', 'S', TRUE, FALSE, 'Alta', 'Baja'),

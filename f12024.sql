@@ -49,8 +49,8 @@ CREATE TABLE tyres (
     id_tyre INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     name VARCHAR (15) NOT NULL,
     tyre_code VARCHAR (1) NOT NULL,
-    slick BOOLEAN NOT NULL,
-    to_rain BOOLEAN NOT NULL,
+    is_slick BOOLEAN NOT NULL,
+    is_for_rain BOOLEAN NOT NULL,
     grip VARCHAR (10),
     durability VARCHAR (10)
 );
@@ -78,7 +78,7 @@ CREATE TABLE qualys (
     q1 VARCHAR(12) NOT NULL,
     q2 VARCHAR(12),
     q3 VARCHAR(12),
-    shootout BOOLEAN NOT NULL,
+    is_shootout BOOLEAN NOT NULL,
     FOREIGN KEY (id_pilot) REFERENCES pilots (id_pilot) ON DELETE CASCADE,
     FOREIGN KEY (id_grand_prix) REFERENCES grand_prix (id_grand_prix) ON DELETE CASCADE
 );
@@ -92,7 +92,7 @@ CREATE TABLE races (
     time VARCHAR(30) NOT NULL,
     grid INT,
     points INT NOT NULL,
-    sprint BOOLEAN NOT NULL,
+    is_sprint BOOLEAN NOT NULL,
     FOREIGN KEY (id_pilot) REFERENCES pilots (id_pilot) ON DELETE CASCADE,
     FOREIGN KEY (id_grand_prix) REFERENCES grand_prix (id_grand_prix) ON DELETE CASCADE
 );

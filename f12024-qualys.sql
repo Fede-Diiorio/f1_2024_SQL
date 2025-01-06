@@ -1,6 +1,6 @@
 USE f12024;
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (1, 1, 1, 1, '1:30.031', '1:29.374', '1:29.179', FALSE),
 (1, 2, 16, 3, '1:30.243', '1:29.165', '1:29.407', FALSE),
 (1, 3, 63, 2, '1:30.350', '1:29.922', '1:29.485', FALSE),
@@ -81,7 +81,7 @@ INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) 
 (4, 19, 2, 7, '1:30.139', NULL, NULL, FALSE),
 (4, 20, 24, 9, '1:30.143', NULL, NULL, FALSE);
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (5, 1, 1, 1, '1:34.742', '1:33.794', '1:33.660', FALSE),
 (5, 2, 11, 1, '1:35.457', '1:34.026', '1:33.982', FALSE),
 (5, 3, 14, 5, '1:35.116', '1:34.652', '1:34.148', FALSE),
@@ -223,7 +223,7 @@ INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) 
 (8, 19, 27, 10, '1:11.876', '1:11.440', NULL, FALSE),
 (8, 20, 20, 10, '1:11.832', '1:11.725', NULL, FALSE);
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (9, 1, 63, 2, '1:13.013', '1:11.742', '1:12.000', FALSE),
 (9, 2, 1, 1, '1:12.360', '1:12.549', '1:12.000', FALSE),
 (9, 3, 4, 4, '1:12.959', '1:12.201', '1:12.021', FALSE),
@@ -325,7 +325,7 @@ INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) 
 (12, 20, 11, 1, '1:38.348', NULL, NULL, FALSE),
 (12, 19, 10, 6, '1:39.804', NULL, NULL, FALSE);
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (13, 1, 4, 4, '1:17.755', '1:15.540', '1:15.227', FALSE),
 (13, 2, 81, 4, '1:17.504', '1:15.785', '1:15.249', FALSE),
 (13, 3, 1, 1, '1:17.087', '1:15.770', '1:15.273', FALSE),
@@ -427,7 +427,7 @@ INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) 
 (16, 19, 77, 9, '1:21.101', NULL, NULL, FALSE),
 (16, 20, 24, 9, '1:21.445', NULL, NULL, FALSE);
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (17, 1, 16, 3, '1:42.775', '1:42.056', '1:41.365', FALSE),
 (17, 2, 81, 4, '1:43.033', '1:42.598', '1:41.686', FALSE),
 (17, 3, 55, 3, '1:43.357', '1:42.503', '1:41.805', FALSE),
@@ -529,7 +529,7 @@ INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) 
 (20, 19, 31, 6, '1:17.617', NULL, NULL, FALSE),
 (20, 20, 24, 9, '1:18.072', NULL, NULL, FALSE);
 
-INSERT INTO qualys (grand_prix_id, position, pilot, team, q1, q2, q3, shootout) VALUES
+INSERT INTO qualys (id_grand_prix, position, id_pilot, team, q1, q2, q3, shootout) VALUES
 (21, 1, 81, 4, '1:10.265', '1:09.239', '1:08.899', TRUE),
 (21, 2, 4, 4, '1:09.477', '1:09.063', '1:08.928', TRUE),
 (21, 3, 16, 3, '1:10.388', '1:09.248', '1:09.153', TRUE),

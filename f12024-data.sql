@@ -4,8 +4,7 @@ INSERT INTO engines (name) VALUES
 ('Honda RBPTH002'), 
 ('Mercedes-AMG F1 M15'), 
 ('Ferrari 066/12'), 
-('Renault E-Tech RE24')
-;
+('Renault E-Tech RE24');
 
 INSERT INTO teams (name, chassis, engine) VALUES 
 ('Oracle Red Bull Racing', 'RB20', 1), ('Mercedes-AMG PETRONAS Formula One Team', 'W15', 2),

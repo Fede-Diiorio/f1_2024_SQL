@@ -11,7 +11,7 @@ El Diagrama Entidad-Relación (ERD) del proyecto te permitirá entender la estru
 1. Descarga o clona este repositorio en tu máquina local.
 2. Abre el archivo del diagrama en [draw.io](https://app.diagrams.net/).
 3. Selecciona la opción **Dispositivo** y luego **Abrir diagrama existente**.
-4. Busca el archivo [f12024.drawio](https://github.com/Fede-Diiorio/scriptsCoder/blob/main/f12024.drawio) en el lugar donde lo descargaste.
+4. Busca el archivo [f12024.drawio](https://github.com/Fede-Diiorio/f1_2024_SQL/blob/main/f12024.drawio) en el lugar donde lo descargaste.
 
 > **Nota:** Puedes modificar o personalizar el diagrama según tus necesidades.
 
@@ -27,7 +27,7 @@ Sigue estos pasos para cargar y utilizar la base de datos:
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/Fede-Diiorio/scriptsCoder.git
+   git clone https://github.com/Fede-Diiorio/f1_2024_SQL.git
    ```
 
 2. Abre tu gestor de bases de datos (por ejemplo, **MySQL Workbench**) y carga el archivo `f12024.sql` para crear la base de datos y todas las tablas necesarias.
